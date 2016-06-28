@@ -10,11 +10,17 @@
     <?php wp_head(); ?>
   </head>
 <body <?php body_class(); ?>>
+
   <nav class="main-navigation content" role="navigation">
+    <?php $logo = get_theme_mod('logo', get_template_directory_uri().'/images/logo.png'); ?>
+
+    <h1 class="site-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo '<img src="'.esc_url($logo).'" alt="Hato Libre Logo" />'; ?></a></h1>
+
     <?php
       wp_nav_menu( array(
-        'theme_location' => 'primary',
-        'menu_class'     => 'primary-menu clear',
+        'menu'       => 'main',
+        'menu_class' => 'primary-menu clear',
+        'container'  => false
        ) );
     ?>
   </nav>

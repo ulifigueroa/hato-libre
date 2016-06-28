@@ -191,31 +191,47 @@ Content
   width: 960px;
 }
 
+.site-main {
+  padding: 0 0 400px 0
+}
+
 /*--------------------------------------------------------------
 Main Navigation
 --------------------------------------------------------------*/
-.main-navigation .primary-menu ul:after {
+.site-logo {
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+.main-navigation {
+  padding: 1em 0;
+}
+
+.primary-menu ul {
+  float: left;
+}
+
+.primary-menu ul:after {
   content:"";
   display: block;
   clear: both;
 }
 
-.main-navigation .primary-menu li {
+.primary-menu li {
   float: left;
 }
 
-.main-navigation .primary-menu a {
+.primary-menu a {
   color: #006830;
   display: block;
   padding: 20px 40px;
   text-transform: uppercase;
 }
 
-.main-navigation .primary-menu a:hover {
+.primary-menu a:hover {
   background-color: #006830;
   color: #fff;
 }
-
 /*--------------------------------------------------------------
 Footer
 --------------------------------------------------------------*/
