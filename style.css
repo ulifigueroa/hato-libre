@@ -234,7 +234,7 @@ Main Navigation
 }
 
 /*--------------------------------------------------------------
-Page
+Banners
 --------------------------------------------------------------*/
 .banner {
   color: #fff;
@@ -262,10 +262,53 @@ Page
   padding: 0.5em 2em;
 }
 
-.site-banner {
+/*--------------------------------------------------------------
+Index
+--------------------------------------------------------------*/
+.index-banner {
   background: transparent url("images/home-banner.png") no-repeat scroll 0 -100px / cover;
 }
 
+.index-banners {
+  color: #fff;
+  margin: 4rem 0;
+}
+
+.index-banners article {
+  float: left;
+  height: 372px;
+  padding: 8rem 0;
+  width: 50%;
+}
+
+.index-banners  h1 {
+  font-size: 2rem;
+}
+
+.index-banners  p {
+  font-size: 1rem;
+  margin: 1em 0;
+}
+
+.index-banners a {
+  background-color: #e63cc5;
+  border-radius: 2em;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em 2em;
+}
+
+.index-banners .services {
+  background: transparent url("images/index-services-banner.png") no-repeat scroll 0 / cover;
+}
+
+.index-banners .partners {
+  background: transparent url("images/index-partners-banner.png") no-repeat scroll 0 / cover;
+}
+
+/*--------------------------------------------------------------
+Page
+--------------------------------------------------------------*/
 .page-banner {
   background: transparent url("images/services-banner.png") no-repeat scroll 0 -100px / cover;
 }
@@ -293,7 +336,7 @@ Services
   background-color: #fff;
   border: 1px solid #d7d7d7;
   float: left;
-  font–size: 12px;
+  font–size: 1rem;
   margin: 0 2% 0 0;
   min-height: 400px;
   padding: 2%;
@@ -303,14 +346,14 @@ Services
 
 .company-service h1 {
   color: #000;
-  font–size: 16px;
+  font–size: 2.5rem;
   font-weight: bold;
   margin: 1rem 0;
   text-align: center;
 }
 
 .company-service p {
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .company-service:last-child {

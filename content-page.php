@@ -1,14 +1,14 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-  <div class="page-banner banner">
+  <section class="page-banner banner">
     <div class="content">
       <h1>Rastreabilidad y laboratorio son algunos de nuestros servicios</h1>
 
       <a href="#">Descargar catalogo de servicios</a>
     </div>
-  </div>
+  </section>
 
-  <div class="page-content content clear">
+  <section class="page-content content clear">
     <?php the_content(); ?>
     <?php
      wp_link_pages( array(
@@ -20,7 +20,7 @@
       'separator'   => '<span class="screen-reader-text">, </span>',
      ) );
     ?>
-  </div>
+  </section>
 
   <?php edit_post_link( __( 'Edit', 'hato-libre' ), '<footer class="page-footer content"><span class="edit-link">', '</span></footer><!-- .page-footer -->' ); ?>
 </article>
