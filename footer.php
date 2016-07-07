@@ -4,7 +4,7 @@
 
   <footer class="site-footer" role="contentinfo">
     <div class="content">
-      <?php echo '<img src="'.esc_url($logo_white).'" alt="Hato Libre Logo" />'; ?>
+      <?php echo '<img src="'.esc_url($logo_white).'" alt="Hato Libre Logo" />'; ?> © <?php echo date("Y"); ?> Todos los derechos reservados.
     </div>
   </footer>
 

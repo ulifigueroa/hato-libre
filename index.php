@@ -1,9 +1,15 @@
 <?php get_header(); ?>
 
 <main class="site-main" role="main">
-  <?php $banner = get_theme_mod('logo', get_template_directory_uri().'/images/banner.png'); ?>
-
-  <?php echo '<img src="'.esc_url($banner).'" alt="Banner" />'; ?>
+  <div class="site-banner banner">
+    <div class="content">
+      <h1>Soluciones tecnológicas para empresas ganaderas</h1>
+      <p>HATO LIBRE® es una alternativa para satisfacer la necesidad de
+        servicios de rastreabilidad, diagnóstico, monitoreo pasivo y control
+        sanitario de las empresas ganaderas</p>
+      <a href="#">Sobre Nosotros</a>
+    </div>
+  </div>
 </main>
 
 <?php get_footer(); ?>

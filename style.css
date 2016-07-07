@@ -1,7 +1,7 @@
 /*
  Theme Name:   Hato Libre
  Description:  Hato Libre Theme
- Author:       Ulises Figueroa
+ Author:       Ulises Figueroa Ramirez
  Author URI:   http://www.ulises-figueroa.com
  Description:  Hato Libre custom theme website
  Version:      0.1.0
@@ -11,10 +11,10 @@
 Reset
 --------------------------------------------------------------*/
 html {
-	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
-	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
-	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
-	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+  font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+  overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+  -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+  -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -24,25 +24,25 @@ small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	border: 0;
-	font-family: inherit;
-	font-size: 16px;
-	font-style: inherit;
-	font-weight: inherit;
-	margin: 0;
-	outline: 0;
-	padding: 0;
-	vertical-align: baseline;
+  border: 0;
+  font-family: inherit;
+  font-size: 16px;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
 }
 *,
 *:before,
 *:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-	-webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
-	-moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
-	box-sizing:         border-box;
+  -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+  -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+  box-sizing:         border-box;
 }
 body {
-	background: #fff;
+  background: #fff;
 }
 article,
 aside,
@@ -54,25 +54,25 @@ header,
 main,
 nav,
 section {
-	display: block;
+  display: block;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 table { /* tables still need 'cellspacing="0"' in the markup */
-	border-collapse: separate;
-	border-spacing: 0;
+  border-collapse: separate;
+  border-spacing: 0;
 }
 caption, th, td {
-	font-weight: normal;
-	text-align: left;
+  font-weight: normal;
+  text-align: left;
 }
 blockquote:before,
 blockquote:after {
-	content: "";
+  content: "";
 }
 blockquote {
-	quotes: "" "";
+  quotes: "" "";
 }
 q {
   quotes: "“" "”" "‘" "’";
@@ -84,78 +84,78 @@ q:after {
     content: close-quote;
 }
 a:focus {
-	outline: thin dotted;
+  outline: thin dotted;
 }
 a:hover,
 a:active {
-	outline: 0;
+  outline: 0;
 }
 a img {
-	border: 0;
+  border: 0;
 }
 body {
-	font-family: 'Lato', Helvetica, sans-serif !important;
-	font-size: 14px;
-	color: #808080;
-	font-weight: normal;
-	overflow-x: hidden;
-	line-height: 25px;
-	text-align: center;
+  color: #747474;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 25px;
+  overflow-x: hidden;
+  text-align: center;
 }
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
 @-webkit-viewport {
-	width: device-width;
+  width: device-width;
 }
 @-moz-viewport {
-	width: device-width;
+  width: device-width;
 }
 @-ms-viewport {
-	width: device-width;
+  width: device-width;
 }
 @-o-viewport {
-	width: device-width;
+  width: device-width;
 }
 @viewport {
-	width: device-width;
+  width: device-width;
 }
 /* Other fixes*/
 *,*:before,*:after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 i {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 ul, ol {
 padding-left: 0 !important;
 }
 /* Selection colours (easy to forget) */
 ::selection {
-	background: #FC6D6D;
-	color: #FFF;
+  background: #FC6D6D;
+  color: #FFF;
 }
 ::-moz-selection {
-	background: #FC6D6D;
-	color: #FFF;
+  background: #FC6D6D;
+  color: #FFF;
 }
 a {
-	color: #e96656;
-	-webkit-transition: all 700ms;
-	transition: all 700ms;
+  color: #e96656;
+  -webkit-transition: all 700ms;
+  transition: all 700ms;
 }
 a,a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 a:hover {
-	color: #cb4332;
+  color: #cb4332;
 }
 p {
     margin: 0;
 }
 .full-width {
-	width: 100%;
-	margin: auto;
+  width: 100%;
+  margin: auto;
 }
 /* do not group these rules (placeholder colors) */
 *::-webkit-input-placeholder {
@@ -232,11 +232,106 @@ Main Navigation
   background-color: #006830;
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+Page
+--------------------------------------------------------------*/
+.banner {
+  color: #fff;
+  height: 350px;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  padding: 5rem 0 0 0;
+}
+
+.banner p {
+  margin: 2rem 0;
+}
+
+.banner h1 + a {
+  margin-top: 3.5rem;
+}
+
+.banner a {
+  background-color: #42d167;
+  border-radius: 2em;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em 2em;
+}
+
+.site-banner {
+  background: transparent url("images/home-banner.png") no-repeat scroll 0 -100px / cover;
+}
+
+.page-banner {
+  background: transparent url("images/services-banner.png") no-repeat scroll 0 -100px / cover;
+}
+
+.page-content {
+  margin: -5em auto 0;
+}
+
+.page-footer {
+  background-color: #006830;
+  color: #fff;
+  margin: 1em auto;
+  padding: 1em;
+  text-align: left;
+}
+
+.page-footer a {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+Services
+--------------------------------------------------------------*/
+.company-service {
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  float: left;
+  font–size: 12px;
+  margin: 0 2% 0 0;
+  min-height: 400px;
+  padding: 2%;
+  text-align: left;
+  width: 32%;
+}
+
+.company-service h1 {
+  color: #000;
+  font–size: 16px;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.company-service p {
+  font-size: 14px;
+}
+
+.company-service:last-child {
+  margin: 0;
+}
+
 /*--------------------------------------------------------------
 Footer
 --------------------------------------------------------------*/
 .site-footer {
-    background-color: #006830;
-    padding: 20px 0;
-    text-align: left;
+  background-color: #006830;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.site-footer .content {
+  color: #fff;
+  font-size: 11px;
+}
+
+.site-footer img {
+  margin: 0 2% 0 0;
+  vertical-align: bottom;
 }
