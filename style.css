@@ -242,8 +242,10 @@ Banners
 }
 
 .banner h1 {
-  font-size: 2rem;
-  padding: 5rem 0 0 0;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin: 0 10rem;
+  padding: 3rem 0 0 0;
 }
 
 .banner p {
@@ -271,7 +273,7 @@ Index
 
 .index-items {
   color: #fff;
-  margin: 4rem 0;
+  margin: 2rem 0;
 }
 
 .index-items article {
@@ -310,7 +312,7 @@ Index
 Page
 --------------------------------------------------------------*/
 .page-content {
-  margin: -5em auto 0;
+  margin: 0 auto;
 }
 
 .page-footer {
@@ -330,6 +332,10 @@ Services
 --------------------------------------------------------------*/
 .page-services .page-banner {
   background: transparent url("images/services-banner.png") no-repeat scroll 0 -100px / cover;
+}
+
+.page-services .page-content {
+  margin: -5rem auto 0 auto;
 }
 
 .company-service {
@@ -359,6 +365,24 @@ Services
 .company-service:last-child {
   margin: 0;
 }
+
+/*--------------------------------------------------------------
+About us
+--------------------------------------------------------------*/
+.page-about-us .page-banner {
+  background: transparent url("images/services-banner.png") no-repeat scroll 0 -100px / cover;
+}
+
+.page-about-us .page-content {
+  margin: 2rem auto 0 auto;
+}
+
+.company-fact {
+  color: #000;
+  float: left;
+  width: 33.33%;
+}
+
 
 /*--------------------------------------------------------------
 Footer
