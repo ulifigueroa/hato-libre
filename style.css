@@ -192,7 +192,7 @@ Content
 }
 
 .site-main {
-  padding: 0 0 400px 0
+  padding: 0 0 40px 0
 }
 
 /*--------------------------------------------------------------
@@ -265,32 +265,32 @@ Banners
 /*--------------------------------------------------------------
 Index
 --------------------------------------------------------------*/
-.index-banner {
+.page-index .page-banner {
   background: transparent url("images/home-banner.png") no-repeat scroll 0 -100px / cover;
 }
 
-.index-banners {
+.index-items {
   color: #fff;
   margin: 4rem 0;
 }
 
-.index-banners article {
+.index-items article {
   float: left;
   height: 372px;
   padding: 8rem 0;
   width: 50%;
 }
 
-.index-banners  h1 {
+.index-items h1 {
   font-size: 2rem;
 }
 
-.index-banners  p {
+.index-items p {
   font-size: 1rem;
   margin: 1em 0;
 }
 
-.index-banners a {
+.index-items a {
   background-color: #e63cc5;
   border-radius: 2em;
   color: #fff;
@@ -298,11 +298,11 @@ Index
   padding: 0.5em 2em;
 }
 
-.index-banners .services {
+.index-items .services {
   background: transparent url("images/index-services-banner.png") no-repeat scroll 0 / cover;
 }
 
-.index-banners .partners {
+.index-items  .partners {
   background: transparent url("images/index-partners-banner.png") no-repeat scroll 0 / cover;
 }
 
