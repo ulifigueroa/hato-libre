@@ -364,7 +364,7 @@ Services
 
 .company-service h1 {
   color: #000;
-  font–size: 2.5rem;
+  font-size: 1.2rem;
   margin: 1rem 0;
   text-align: center;
 }
@@ -381,7 +381,11 @@ Services
 About us
 --------------------------------------------------------------*/
 .page-about-us .page-banner {
-  background: transparent url("images/services-banner.png") no-repeat scroll 0 -100px / cover;
+  background: transparent url("images/about-us-banner.png") no-repeat scroll 0 -100px / cover;
+}
+
+.page-about-us .page-banner h1 {
+  padding: 7rem 0 0;
 }
 
 .page-about-us .page-content {
@@ -391,7 +395,21 @@ About us
 .company-fact {
   color: #000;
   float: left;
-  width: 33.33%;
+  margin: 0 2% 0 0;
+  width: 32%;
+}
+
+.company-fact:last-child {
+  margin: 0;
+}
+
+.company-fact h1 {
+  font-size: 1.2rem;
+}
+
+.company-fact p {
+  margin: 1rem 0;
+  text-align: left;
 }
 
 /*--------------------------------------------------------------
@@ -426,7 +444,7 @@ Contact
 }
 
 .page-contact form input[type="submit"] {
-  background-color: #42d167;
+  background-color: #4fb068;
   border: 0;
   border-radius: 2em;
   color: #fff;
