@@ -309,10 +309,6 @@ Index
 /*--------------------------------------------------------------
 Page
 --------------------------------------------------------------*/
-.page-banner {
-  background: transparent url("images/services-banner.png") no-repeat scroll 0 -100px / cover;
-}
-
 .page-content {
   margin: -5em auto 0;
 }
@@ -332,6 +328,10 @@ Page
 /*--------------------------------------------------------------
 Services
 --------------------------------------------------------------*/
+.page-services .page-banner {
+  background: transparent url("images/services-banner.png") no-repeat scroll 0 -100px / cover;
+}
+
 .company-service {
   background-color: #fff;
   border: 1px solid #d7d7d7;
