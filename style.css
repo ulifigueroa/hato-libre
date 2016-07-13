@@ -413,6 +413,7 @@ About us
   color: #000;
   float: left;
   margin: 0 2% 0 0;
+  padding: 20% 0 0 0;
   width: 32%;
 }
 
@@ -427,6 +428,18 @@ About us
 .company-fact p {
   margin: 1rem 0;
   text-align: left;
+}
+
+.company-fact.about-us {
+  background: transparent url("images/about-us.png") no-repeat scroll center 5%;
+}
+
+.company-fact.mission {
+  background: transparent url("images/mission.png") no-repeat scroll center 5%;
+}
+
+.company-fact.vision {
+  background: transparent url("images/vision.png") no-repeat scroll center 5%;
 }
 
 /*--------------------------------------------------------------
