@@ -347,16 +347,15 @@ Services
 }
 
 .page-services .page-content {
-  margin: -5rem auto 0 auto;
+  margin: -4rem auto 0 auto;
 }
 
 .company-service {
-  background-color: #fff;
   border: 1px solid #d7d7d7;
   float: left;
   margin: 0 2% 0 0;
-  min-height: 400px;
-  padding: 2%;
+  min-height: 500px;
+  padding: 12% 2% 2% 2%;
   text-align: left;
   width: 32%;
 }
@@ -365,6 +364,7 @@ Services
   color: #000;
   font-size: 1.2rem;
   margin: 1rem 0;
+  min-height: 3rem;
   text-align: center;
 }
 
@@ -380,6 +380,18 @@ Services
 
 .company-service li a {
   color: #e63cc5;
+}
+
+.company-service.laboratory {
+  background: #fff url("images/laboratory.png") no-repeat scroll center 5%;
+}
+
+.company-service.research {
+  background: #fff url("images/research.png") no-repeat scroll center 5%;
+}
+
+.company-service.other {
+  background: #fff url("images/other-services.png") no-repeat scroll center 5%;
 }
 
 /*--------------------------------------------------------------
