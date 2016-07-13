@@ -278,7 +278,7 @@ Banners
 /*--------------------------------------------------------------
 Index
 --------------------------------------------------------------*/
-.page-index .page-banner {
+.index .banner {
   background: transparent url("images/home-banner.png") no-repeat scroll 0 -100px / cover;
 }
 
@@ -316,18 +316,14 @@ Index
   background: transparent url("images/index-services-banner.png") no-repeat scroll 0 / cover;
 }
 
-.index-items  .partners {
+.index-items .partners {
   background: transparent url("images/index-partners-banner.png") no-repeat scroll 0 / cover;
 }
 
 /*--------------------------------------------------------------
 Page
 --------------------------------------------------------------*/
-.page-content {
-  margin: 0 auto;
-}
-
-.page-footer {
+.footer {
   background-color: #006830;
   color: #fff;
   margin: 1em auto;
@@ -335,18 +331,18 @@ Page
   text-align: left;
 }
 
-.page-footer a {
+.footer a {
   color: #fff;
 }
 
 /*--------------------------------------------------------------
 Services
 --------------------------------------------------------------*/
-.page-services .page-banner {
+.services .banner {
   background: transparent url("images/services-banner.png") no-repeat scroll 0 -100px / cover;
 }
 
-.page-services .page-content {
+.services > .content {
   margin: -4rem auto 0 auto;
 }
 
@@ -397,15 +393,16 @@ Services
 /*--------------------------------------------------------------
 About us
 --------------------------------------------------------------*/
-.page-about-us .page-banner {
+.about-us .banner {
   background: transparent url("images/about-us-banner.png") no-repeat scroll 0 -100px / cover;
+  height: 300px;
 }
 
-.page-about-us .page-banner h1 {
+.about-us .banner h1 {
   padding: 7rem 0 0;
 }
 
-.page-about-us .page-content {
+.about-us > .content {
   margin: 2rem auto 0 auto;
 }
 
@@ -443,29 +440,58 @@ About us
 }
 
 /*--------------------------------------------------------------
+Partnerships
+--------------------------------------------------------------*/
+.partnerships .banner {
+  background: transparent url("images/about-us-banner.png") no-repeat scroll 0 -100px / cover;
+  height: 300px
+}
+
+.partnerships .banner h1 {
+  padding: 8rem 0 0;
+}
+
+.partnerships > .content {
+  margin: 2rem auto 0 auto;
+}
+
+.partnerships .company-parner {
+  border: 1px solid #ccc;
+  float: left;
+  height: 15rem;
+  margin: 0 3% 5% 0;
+  padding: 10% 2.5% 2.5% 2.5%;
+  width: 30%;
+}
+
+.partnerships .company-parner h1 {
+  font-weight: normal;
+}
+
+/*--------------------------------------------------------------
 Contact
 --------------------------------------------------------------*/
-.page-contact .content {
+.contact .content {
   margin: 2rem auto 0 auto;
   text-align: left;
 }
 
-.page-contact .information,
-.page-contact .contact-form {
+.contact .information,
+.contact .contact-form {
   float: left;
   width: 50%;
 }
 
-.page-contact .contact-form {
+.contact .contact-form {
   color: #000;
 }
 
-.page-contact form p {
+.contact form p {
   font-weight: bold;
 }
 
-.page-contact form input,
-.page-contact form textarea {
+.contact form input,
+.contact form textarea {
   border: 1px solid #ccc;
   font-size: 1rem;
   margin: 0 0 1em 0;
@@ -473,7 +499,7 @@ Contact
   width: 100%;
 }
 
-.page-contact form input[type="submit"] {
+.contact form input[type="submit"] {
   background-color: #4fb068;
   border: 0;
   border-radius: 2em;
@@ -485,18 +511,18 @@ Contact
   width: 50%;
 }
 
-.page-contact .emails {
+.contact .emails {
   color: #000;
   margin: 2rem 0 0 0;
 }
 
-.page-contact .information h1 {
+.contact .information h1 {
   color: #000;
   font-size: 1.5rem;
   margin: 0 0 2rem 0;
 }
 
-.page-contact .information h2 {
+.contact .information h2 {
   color: #000;
   font-size: 1.2rem;
   margin: 0 0 0.5rem 0;

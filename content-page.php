@@ -12,5 +12,5 @@
    ) );
   ?>
 
-  <?php edit_post_link( __( 'Edit', 'hato-libre' ), '<footer class="page-footer content"><span class="edit-link">', '</span></footer><!-- .page-footer -->' ); ?>
+  <?php edit_post_link( __( 'Edit', 'hato-libre' ), '<footer class="footer content"><span class="edit-link">', '</span></footer><!-- .footer -->' ); ?>
 </article>
