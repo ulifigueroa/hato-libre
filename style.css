@@ -460,12 +460,13 @@ Partnerships
   float: left;
   height: 15rem;
   margin: 0 3% 5% 0;
-  padding: 10% 2.5% 2.5% 2.5%;
+  padding: 2.5%;
   width: 30%;
 }
 
 .partnerships .company-parner h1 {
   font-weight: normal;
+  margin: 1em 0;
 }
 
 /*--------------------------------------------------------------
