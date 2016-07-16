@@ -232,7 +232,7 @@ Main Navigation
 .primary-menu a {
   color: #006830;
   display: block;
-  padding: 20px 40px;
+  padding: 20px 50px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -280,6 +280,10 @@ Index
 --------------------------------------------------------------*/
 .index .banner {
   background: transparent url("images/home-banner.png") no-repeat scroll 0 -100px / cover;
+}
+
+.index .banner p {
+  font-size: 1.3rem;
 }
 
 .index-items {
