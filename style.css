@@ -351,25 +351,30 @@ Services
 }
 
 .company-service {
+  background-color: #fff;
   border: 1px solid #d7d7d7;
   float: left;
   margin: 0 2% 0 0;
-  min-height: 550px;
-  padding: 12% 2% 2% 2%;
+  min-height: 570px;
+  padding: 2%;
   text-align: left;
   width: 32%;
+}
+
+.company-service:last-child {
+  margin: 0;
+}
+
+.company-service hr {
+  border: 1px solid #d7d7d7;
+  margin: 1rem 0;
 }
 
 .company-service h1 {
   color: #000;
   font-size: 1.2rem;
   margin: 1rem 0;
-  min-height: 3rem;
   text-align: center;
-}
-
-.company-service:last-child {
-  margin: 0;
 }
 
 .company-service ul {
@@ -382,16 +387,32 @@ Services
   color: #e63cc5;
 }
 
-.company-service.laboratory {
-  background: #fff url("images/laboratory.png") no-repeat scroll center 5%;
+.company-service li p {
+  color: #747474;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  margin: 1rem 0;
+  padding: 0 0 0 1%;
 }
 
-.company-service.research {
-  background: #fff url("images/research.png") no-repeat scroll center 5%;
+.company-service .icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 6rem;
+  width: 100%;
 }
 
-.company-service.other {
-  background: #fff url("images/other-services.png") no-repeat scroll center 5%;
+.company-service .icon.laboratory {
+  background-image: url("images/laboratory.png");
+}
+
+.company-service .icon.research {
+  background-image: url("images/research.png");
+}
+
+.company-service .icon.other, .company-service .icon.products {
+  background-image: url("images/other-services.png");
 }
 
 /*--------------------------------------------------------------
