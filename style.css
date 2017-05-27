@@ -437,6 +437,12 @@ About us
   margin: 2rem auto 0 auto;
 }
 
+.about-us ul {
+  list-style-type: inherit;
+  text-align: left;
+  margin: 2rem 0 0 3rem;
+}
+
 .company-fact {
   color: #000;
   float: left;
