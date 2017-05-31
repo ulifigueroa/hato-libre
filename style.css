@@ -507,7 +507,12 @@ Contact
   text-align: left;
 }
 
-.contact .information,
+.contact .information {
+  float: left;
+  padding: 0 5% 0 0;
+  width: 45%;
+}
+
 .contact .contact-form {
   float: left;
   width: 50%;
@@ -540,6 +545,15 @@ Contact
   margin: 1rem 0;
   text-decoration: none;
   width: 50%;
+}
+
+.contact form input[type="radio"] {
+  width: 5%;
+}
+
+.wpcf7-list-item {
+  display: block;
+  font-weight: normal;
 }
 
 .contact .emails {
