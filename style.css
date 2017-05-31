@@ -510,12 +510,16 @@ Contact
 .contact .information {
   float: left;
   padding: 0 5% 0 0;
-  width: 45%;
+  width: 55%;
+}
+
+.contact .information p {
+  margin: 0 0 2rem 0;
 }
 
 .contact .contact-form {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 .contact .contact-form {
